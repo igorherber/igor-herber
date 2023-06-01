@@ -1,17 +1,17 @@
 header{
-    background-color: rgb(226, 90, 0);
+    background-color: rgb(251, 130, 38);
     padding: 20px;
 }
 
 #logo{
     border-radius: 10px;
-    width: 300px;
+    width: 250px;
     height: 250px;
 }
 
 @font-face {
-    font-family: 'gagalin';
-    src: url('Gagalin-Regular.otf') format('opentype');
+    font-family: 'Caveat';
+    src: url('Caveat-VariableFont_wght.ttf') format('opentype');
 }
 
 .titulo-principal{
@@ -21,7 +21,7 @@ header{
     left: 45%;
     transform: translate(-30%, -70%);
     font-size: 35px;
-    font-family: gagalin;
+    font-family: 'Caveat';
     /*font-family: 'Gagalin', sem serifa;*/
     /*font-family:Barlow;*/
 }
@@ -69,8 +69,8 @@ form label, form p{/*Vamos replicar a mesma configuração do form label para o
     cursor: pointer;
 }
 
-.enviar: hover {
-    background: yellow;
+.enviar:hover {
+    background: rgb(255, 198, 144);
     transform: scale(1.2);
 }
 

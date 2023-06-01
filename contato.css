@@ -1,0 +1,97 @@
+header{
+    background-color: rgb(226, 90, 0);
+    padding: 20px;
+}
+
+#logo{
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+}
+
+@font-face {
+    font-family: 'gagalin';
+    src: url('Gagalin-Regular.otf') format('opentype');
+}
+
+.titulo-principal{
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-30%, -70%);
+    font-size: 35px;
+    font-family: gagalin;
+    /*font-family: 'Gagalin', sem serifa;*/
+    /*font-family:Barlow;*/
+}
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0; /*margem superior e inferior de 40px, para os lados zero*/
+
+}
+
+form label, form p{/*Vamos replicar a mesma configuração do form label para o 
+    parágrafo, por isso, o uso da vírgula*/
+
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;/* 10px para baixo*/
+
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;/* 20px para baixo*/
+    padding: 10px 25px;/* 10px p/ cima e p/ baixo e 25px /p os lados*/
+    width: 50%; /* largura dos meus inputs*/
+
+}
+
+.checkbox{
+    margin: 20px 0; /* 20px p/ cima e p/ baixo e zero nas laterais*/
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(255, 183, 0);
+    color: rgb(241, 244, 29);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar: hover {
+    background: yellow;
+    transform: scale(1.2);
+}
+
+.copyright{
+    color:rgb(255, 255, 255);
+    font-size: 13px;
+    margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background-color:rgb(226, 88, 30);
+    /*Está propriedade é utilizada para inserir imagens como plano de fundo de um elemento.
+    Pra isso, fazemos uso da função url(), pra a qual passamos como parâmetro o caminho da imagem
+    a ser inserida.*/
+
+    padding: 10px 0;
+}
+
+#logo1{
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+}

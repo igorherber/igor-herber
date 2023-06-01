@@ -1,0 +1,97 @@
+<!Doctype html>
+<html lamg="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Contato22/05</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="contato.css">
+        <link rel="stylesheet" href=link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    </head>
+   <body>
+        <header>
+
+            <img id="logo" src="logo de restaurante de comida chinesa.png">
+            <h1 class="titulo-principal">Restaurante de Comida Chinesa</h1>
+
+        </header>
+
+        <nav>
+            <ol>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contatos</li>
+            </ol>
+        </nav>
+        
+        <main>
+            <form>
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="text" name="name" id="nomesobrenome" class="input-padrao"
+                placeholder="seu nome e sobrenome" required>
+                <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"
+                class="input-padrao" placeholder="seuemail@dominio.com" required>
+                <br><br>
+
+                <label for="telefone"> Telefone </label>
+                <input type="tel" name="telefone" id="telefone" class="input-padrao" 
+                placeholder="(XX) XXXXX-XXXX" required>
+                <br><br>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" placeholder="Digite seu texto aqui"
+                required></textarea>
+                <br><br>
+
+                <section>
+                    <p>Como prefere nosso contato?</p>
+
+                    <label for="radio-email"><input type="radio" 
+                    name="contato" value="email" id="radio-email"> Email</label>
+                    <br><br>
+
+                    <label for="radio-telefone"><input type="radio" name="contato" 
+                    value="telefone" id="radio-telefone"> Telefone</label>
+                    <br><br>
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato"
+                    value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+                    <br><br>
+                </section>
+
+                <section>
+                    <p>Qual harário prefere ser atendido?</p>
+                    <select>
+                        <option>Manhã</option>
+                        <!--dropdown - seleções selecionáveis-->
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                     </select>
+                    </select>
+
+                    
+                    <section>
+                    <label class="checkbox">
+                    <input type="checkbox">Gostaria de receber nossas novidades por 
+                    email?</label>
+
+                    <input type="submit" value="Enviar formulário" class="enviar">
+
+                </section>
+            </form>
+
+            
+        </main>
+
+        <footer>
+            <img id="logo1" src="logo de restaurante de comida chinesa.png">
+            <p class="copyright">&copy; copyright -- Igor Palhares</p>
+
+        </footer>
+    </body>
+</html>

@@ -53,6 +53,11 @@ nav a {
     font-size: 22px;
     text-decoration: none;/*sem linha embaixo do link*/
     font-family: 'VampiroOne';
+    text-shadow:
+    -1px -1px 0px #000000,
+    -1px 4px 0px #000000,
+    1px -1px 0px #000000,
+    1px 0px 0px #000000;
 }
 
 nav a:hover{

@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(251, 130, 38);
+    background-image: linear-gradient(red,orange,orangered);
     padding: 20px;
 }
 
@@ -10,20 +10,54 @@ header{
 }
 
 @font-face {
-    font-family: 'Caveat';
-    src: url('Caveat-VariableFont_wght.ttf') format('opentype');
+    font-family: 'VampiroOne';
+    src: url('VampiroOne-Regular.ttf') format('opentype');
 }
 
 .titulo-principal{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'VampiroOne', cursive;
     position: absolute;
     top: 20%;
     left: 45%;
     transform: translate(-30%, -70%);
     font-size: 35px;
-    font-family: 'Caveat';
+    font-family: 'VampiroOne';
+    color: orangered;
+    text-shadow:
+    -1px -1px 0px #000000,
+    -1px 4px 0px #000000,
+    1px -1px 0px #000000,
+    1px 0px 0px #000000;
+
     /*font-family: 'Gagalin', sem serifa;*/
     /*font-family:Barlow;*/
+    
+}
+
+nav{
+    position:absolute;
+    /*posicionamento dos links*/
+    top:180px;
+    right:50px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color:orangered;
+    /*font-weight: bold;*/
+    font-size: 22px;
+    text-decoration: none;/*sem linha embaixo do link*/
+    font-family: 'VampiroOne';
+}
+
+nav a:hover{
+    color: orangered;
+    text-decoration: underline;
 }
 
 main{
@@ -82,7 +116,7 @@ form label, form p{/*Vamos replicar a mesma configuração do form label para o
 
 footer{
     text-align: center;
-    background-color:rgb(226, 88, 30);
+    background-image:linear-gradient(white,orangered,orangered);
     /*Está propriedade é utilizada para inserir imagens como plano de fundo de um elemento.
     Pra isso, fazemos uso da função url(), pra a qual passamos como parâmetro o caminho da imagem
     a ser inserida.*/

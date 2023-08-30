@@ -6,3 +6,7 @@
 🔰Estou cursando programação de front-end, banco de dados, programação mobile.
 
 🪐Meu insta: https://www.instagram.com/igorherber26/
+
+Você deixou seu git hub aberto seu besta, tem sorte de que somos pessoas de bem (~^-^)~
+  Ass: Ana e Vitor amigos bondosos ^.^ 
+                                    

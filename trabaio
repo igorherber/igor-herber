@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><pre>
+
+    Nome: 
+    <input type="text" size="40" maxlength="50" placeholder="Digite seu Nome" name="nome">
+
+    RG: 
+    <input type="number" size="20" maxlength="50" placeholder="Digite seu RG" name="RG">
+
+    CPF: 
+    <input type="number" size="20" maxlength="50" placeholder="Digite seu CPF" name="CPF">
+
+    Data Nascimento: 
+    <input type="date" size="40" maxlength="50">
+
+    Sexo:
+    <input type="radio" name="feminino"> Feminimo
+    <input type="radio" name="masculino"> Masculino
+
+    Endereço:
+
+    CEP:
+    <input type="number" size="20" maxlength="50" placeholder="Digite seu CEP" name="CEP">
+
+    
+
+
+
+
+    
+</body>
+
+</html>
